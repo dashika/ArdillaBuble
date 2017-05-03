@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArdillaBubble", "ArdillaBubble\ArdillaBubble.csproj", "{0F6BCC53-E413-4A0C-AFCF-87EC70E8539B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235} = {C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArdillaBubble.Web", "ArdillaBubble.Web\ArdillaBubble.Web.csproj", "{C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F6BCC53-E413-4A0C-AFCF-87EC70E8539B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6BCC53-E413-4A0C-AFCF-87EC70E8539B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6BCC53-E413-4A0C-AFCF-87EC70E8539B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6BCC53-E413-4A0C-AFCF-87EC70E8539B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13B012F-8BC7-4E0D-BCF3-D7C1FDFC2235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
